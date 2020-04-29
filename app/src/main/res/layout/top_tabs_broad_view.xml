@@ -1,0 +1,129 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:background="@android:color/white"
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/container">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_margin="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/experiment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/menu"/>
+                        <TextView
+                            android:id="@+id/location_display"
+                            android:text="Location"
+                            android:enabled="false"
+                            android:textSize="16sp"
+                            android:layout_marginStart="15dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/down_arrow"/>
+                    </LinearLayout>
+                    <TextView
+                        android:text=""
+                        android:enabled="false"
+                        android:clickable="false"
+                        android:textSize="18sp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:background="#00000000"
+                        android:shadowColor="@color/white"
+                        android:shadowDy="1.2" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/white"
+                        android:src="@drawable/call"
+                        android:tint="@android:color/black"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/help"/>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/search_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rectangle"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@android:color/black"
+                        android:src="@drawable/ic_search" />
+
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="10"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:hint="Search for Hospitals, Medicines &amp; more "
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    </RelativeLayout>
+
+
+</merge>

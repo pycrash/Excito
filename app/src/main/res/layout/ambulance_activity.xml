@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Address.LocationActivity">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/current_location"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent" />
+
+            </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+
+                        <EditText
+                            android:id="@+id/address_line"
+                            android:layout_margin="20dp"
+                            android:textColor="@android:color/black"
+                            android:background="#00000000"
+                            android:textColorHint="#000000"
+                            android:textSize="14sp"
+                            android:enabled="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Address Line"/>
+
+
+
+
+                        <EditText
+                            android:id="@+id/city"
+                            android:layout_margin="20dp"
+                            android:textColor="@android:color/black"
+                            android:background="#00000000"
+                            android:textColorHint="#000000"
+                            android:textSize="14sp"
+                            android:enabled="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="City"/>
+
+
+                <AutoCompleteTextView
+                            android:id="@+id/state"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:background="#00000000"
+                    android:textColorHint="#000000"
+                    android:textSize="14sp"
+                    android:enabled="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="State"/>
+
+
+
+                <EditText
+                            android:id="@+id/postal_code"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:background="#00000000"
+                    android:textColorHint="#000000"
+                    android:textSize="14sp"
+                    android:enabled="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Postal Code"/>
+
+
+
+                <EditText
+                            android:id="@+id/landmark"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:background="#00000000"
+                    android:textColorHint="#000000"
+                    android:textSize="14sp"
+                    android:enabled="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Landmark (optional)"/>
+
+
+
+                <androidx.cardview.widget.CardView
+            android:id="@+id/confirmationForAmbulance"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:elevation="8dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/save_address"
+                    android:background="#00000000"
+                    android:textColorHint="#000000"
+                    android:textAlignment="center"
+                    android:textSize="15.4sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Save Address"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+            </LinearLayout>
+    </FrameLayout>
+        </RelativeLayout>
+
+

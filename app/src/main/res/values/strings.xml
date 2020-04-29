@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Excito</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <!-- for facebook login -->
+    <!-- facebook login ends -->
+    <!-- error messages -->
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="Rs">\u20B9 %1$s</string>
+    <string name="terms">By proceeding, you agree to our Terms of service &amp; Privacy policy.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

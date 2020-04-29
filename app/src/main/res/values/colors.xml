@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="themeColor">#11CFC5</color>
+
+
+    <color name="grey">#D3D3D3</color>
+
+    <color name="red">#F44336</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="transparent">#0000ffff</color>
+    <color name="light_grey">#ECEFF1</color>
+    <color name="green">#FF19D3A4</color>
+    <color name="creamy">#F0F5F8</color>
+    <color name="pink">#FFC0CB</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">@android:color/darker_gray</color>
+    <color name="dot_active">@color/colorPrimary</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">@android:color/darker_gray</color>
+    <color name="dot_dark_screen2">@android:color/darker_gray</color>
+    <color name="dot_dark_screen3">@android:color/darker_gray</color>
+    <color name="dot_dark_screen4">@android:color/darker_gray</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#00BCD4</color>
+    <color name="dot_light_screen2">#00BCD4</color>
+    <color name="dot_light_screen3">#00BCD4</color>
+    <color name="dot_light_screen4">#00BCD4</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- normal colors -->
+    <color name="darkTextColor">#020000</color>
+    <!-- colors for light mode -->
+    <color name="contentTextColor">#020000</color>
+    <color name="register_bk_color">#11CFC5</color>
+    <color name="login_bk_color">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#11CFC5</color>
+    <!-- colors for crop activity -->
+    <!--
+    <color name="ucrop_color_toolbar">@color/teal_500</color>
+    -->
+    <!--
+    <color name="ucrop_color_statusbar">@color/teal_700</color>
+    -->
+    <!--
+    <color name="ucrop_color_widget_active">@color/teal_500</color>
+    -->
+
+
+
+    <!--gradient colors-->
+    <color name="gradientOrange">#FF416C</color>
+    <color name="gradientViolet">#8A52E9</color>
+    <color name="gradientLightYellow">#FFA72F</color>
+    <color name="gradientLightOrange">#FF641A</color>
+    <color name="gradientLightYellow2">#FFC92B</color>
+    <color name="gradientLightOrange2">#FF7765</color>
+    <color name="gradientOrange3">#F7A23C</color>
+    <color name="gradientLightBlue">#376DF6</color>
+    <color name="gradientLightGreen">#21E8AC</color>
+
+    <!--colors for nongradientversion-->
+    <color name="cardColorTeal">#09CD95</color>
+    <color name="cardColorOrange">#FF651B</color>
+    <color name="cardColorYellow">#FF991F</color>
+    <color name="cardColorViolet">#8F51E3</color>
+    <color name="cardColorRed">#F94172</color>
+
+
+    <color name="miniTitleColor">#6F6A6A</color>
+
+
+    <color name="bottomNavigationTextColor">#B2B2B2</color>
+    <color name="bottomNavigationTintColor">#B2B2B2</color>
+    <color name="bottomNavigationSelectedColor">#13D3B4</color>
+    <color name="statusBarColor">#000</color>
+    <color name="whiteBodyColor">#FCFCFC</color>
+
+    <color name="frutorial_title">#4c4c4c</color>
+    <!--     home designs main color -->
+    <!--
+        will use the same color for all card and vectors, if you want to change this color, ic_search the color code in vector files
+    -->
+    <color name="designMainColor">#13D3B4</color>
+    <color name="imageBorderColor">#13D3B4</color>
+    <color name="contentStatusBar">#fff</color>
+    <!-- colors for light mode -->
+    <color name="contentBodyColor">#FCFCFC</color>
+
+    <color name="bottomNavigationBackground">#F7F7F7</color>
+    <color name="miniTitle">#0F0101</color>
+    <color name="miniDescription">#707070</color>
+
+
+    <!-- colors for profile -->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:fitsSystemWindows="true"
+    android:id="@+id/rootLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bk_color"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    style="@style/viewParent.headerText.NoMode"
+                    android:text="Enter \nNumber \nto get\nStarted"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_register_hero"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"/>
+
+
+
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputEmail"
+                android:orientation="horizontal"
+                style="@style/parent"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    style="@style/modifiedEditText"
+                    android:backgroundTint="@color/red"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:hint="Phone Number"/>
+                <TextView
+                    android:id="@+id/change_phone_number"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    style="@style/viewParent"
+                    android:visibility="gone"
+                    android:text="Change Number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/newsMoreTextSize"
+                    android:layout_gravity="end"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPassword"
+                style="@style/parent"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+                <EditText
+                    android:id="@+id/editTextOTP"
+                    android:visibility="gone"
+                    style="@style/modifiedEditText"
+                    android:hint="Enter OTP"
+                    android:inputType="number"
+                    android:maxLength="6" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                android:id="@+id/linear_layout_resend_OTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                android:layout_gravity="end">
+            <RelativeLayout
+                android:id="@+id/countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@+id/progressBarCircle"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="100"
+                    android:indeterminateTint="@color/red"
+                    android:progressDrawable="@drawable/drawable_circle_yellow"
+                    android:rotation="-90" />
+
+                <TextView
+                    android:id="@+id/textViewTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="6dp"
+                    android:text="59"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/resendOTP"
+                style="@style/viewParent"
+                android:text="Resend OTP"
+                android:textColor="@color/red"
+                android:textSize="@dimen/newsMoreTextSize"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_above="@+id/button_linear_layout"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/button_linear_layout"
+        android:layout_margin="@dimen/loginViewsMargin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:layout_width="match_parent"
+        android:layout_gravity=""
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendOtpButton"
+            android:background="@drawable/button_style"
+            android:enabled="false"
+            android:textColor="@android:color/black"
+            android:text="Enter a valid number"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkOTP"
+            android:background="@drawable/button_style"
+            android:enabled="false"
+            android:textColor="@android:color/black"
+            android:text="LOGIN"
+            android:layout_gravity="center_horizontal" />
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:indeterminateTint="@color/colorAccent"
+            android:indeterminate="true"
+            android:indeterminateBehavior="repeat"
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            android:outlineSpotShadowColor="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

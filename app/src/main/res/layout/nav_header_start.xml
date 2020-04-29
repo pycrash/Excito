@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_grey"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:id="@+id/textview_header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:textColor="@android:color/black"
+        android:text="Name" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="6dp"
+        android:background="@android:color/black"/>
+
+
+    <TextView
+        android:id="@+id/textView_header_phone_no"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+
+        android:layout_height="wrap_content"
+        android:text="Phone" />
+    <TextView
+        android:id="@+id/textView_header_email_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+
+        android:text="Email" />
+
+</LinearLayout>

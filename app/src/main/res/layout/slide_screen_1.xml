@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:weightSum="3"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/stores"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="FIND STORES"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:text="We make it simple to find basic stuffs for you. Choose among a large number of stores"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

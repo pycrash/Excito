@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+                <LinearLayout
+                    android:scrollbars="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="#E0F2F1"
+                        app:cardCornerRadius="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@color/colorPrimary"
+                                app:cardCornerRadius="10dp"
+                                android:padding="3dp"
+                                >
+                                <TextView
+                                    android:layout_margin="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@android:color/white"
+                                    android:textStyle="bold"
+                                    android:text="#Stay Safe"
+                                    android:layout_alignParentStart="true"/>
+                            </androidx.cardview.widget.CardView>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Strict measures to ensure your order's safety at every step"
+                                android:textSize="10sp"
+                                android:paddingTop="2dp"
+                                android:textColor="@android:color/black"
+                                android:layout_alignParentBottom="true"/>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="5dp"
+                        app:cardCornerRadius="5dp"
+                        android:background="@drawable/rectangle"
+                        app:cardBackgroundColor="#E3F2FD">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:text="Contact Tracing"
+                                android:layout_alignParentStart="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Our riders now have Aarogya Setu app for better safety"
+                                android:textSize="10sp"
+                                android:paddingTop="2dp"
+                                android:textColor="@android:color/black"
+                                android:layout_alignParentBottom="true"/>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="#F9FBE7"
+                        app:cardCornerRadius="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:text="Contactless Delivery"
+                                android:layout_alignParentStart="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Delivery outside your door with zero contact"
+                                android:textSize="10sp"
+                                android:paddingTop="2dp"
+                                android:textColor="@android:color/black"
+                                android:layout_alignParentBottom="true"/>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="#FCE4EC"
+                        app:cardCornerRadius="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:text="Rider Safety Checks"
+                                android:layout_alignParentStart="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Temp checks, hand wash, masks &amp; more"
+                                android:textSize="10sp"
+                                android:paddingTop="2dp"
+                                android:textColor="@android:color/black"
+                                android:layout_alignParentBottom="true"/>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="#EDE7F6"
+                        app:cardCornerRadius="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:text="Safe &amp; Hygienic Stores"
+                                android:layout_alignParentStart="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Stores that follow WHO safety practices"
+                                android:textSize="10sp"
+                                android:paddingTop="2dp"
+                                android:textColor="@android:color/black"
+                                android:layout_alignParentBottom="true"/>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                </HorizontalScrollView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/groceries_card_view"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardBackgroundColor="@color/light_grey"
+                    android:elevation="16dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/groceries"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Excito Market"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textStyle="bold|italic"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="sans-serif-condensed-medium"/>
+
+                    <TextView
+                        android:id="@+id/delivered"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_below="@+id/groceries"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="Groceries delivered in 60 minutes"
+                        android:textColor="@android:color/holo_blue_dark"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Order Now"
+                            android:layout_below="@id/delivered"
+                            android:textStyle="bold"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@android:color/holo_blue_dark"/>
+                        </LinearLayout>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:src="@drawable/groceries"
+                            android:scaleType="centerCrop"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        app:cardCornerRadius="16dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardBackgroundColor="@color/designMainColor"
+                        android:minHeight="200dp"
+                        android:layout_alignParentTop="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp"
+                                android:orientation="vertical"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Amazing deals  \njust for\nYOU !!"
+                                    android:textColor="@color/whiteBodyColor"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"/>
+
+                                <TextView
+                                    android:layout_marginTop="15dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Upto 60% OFF"
+                                    android:textColor="@color/whiteBodyColor"
+                                    android:textStyle="bold"
+                                    android:textSize="13sp"/>
+
+                            </LinearLayout>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:cropToPadding="true"
+                                android:src="@drawable/hero"
+                                android:elevation="44dp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+
+
+
+
+                <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:elevation="6dp"
+                    app:cardBackgroundColor="#E3F2FD"
+                    app:cardCornerRadius="16dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:orientation="horizontal"
+                            android:padding="3dp">
+                            <LinearLayout
+                                android:id="@+id/general_stores_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:padding="8dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:paddingTop="8dp"
+                                    android:src="@drawable/ic_store_mall_directory_black_24dp"/>
+                                <TextView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginBottom="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="General"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+                            <LinearLayout
+                                android:id="@+id/restaurants_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:padding="8dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:src="@drawable/restaurants"/>
+                                <TextView
+                                    android:paddingBottom="4dp"
+                                    android:paddingTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Restaurants"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+
+                            <LinearLayout
+                                android:id="@+id/medicines_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:padding="6dp"
+                                    android:src="@drawable/medical_store"/>
+                                <TextView
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Medicines"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+
+                            <LinearLayout
+                                android:id="@+id/bakery_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:paddingLeft="6dp"
+                                    android:paddingEnd="6dp"
+                                    android:padding="6dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/bakery"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:layout_marginBottom="4dp"
+                                    android:layout_marginTop="4dp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Bakery"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@android:color/white"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:orientation="horizontal"
+                            android:padding="3dp">
+                            <LinearLayout
+                                android:id="@+id/electrical_stores_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:src="@drawable/electrical_stores"/>
+                                <TextView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginBottom="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Electrical"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+                            <LinearLayout
+                                android:id="@+id/hardware_stores_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:padding="8dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:src="@drawable/hardware"/>
+                                <TextView
+                                    android:paddingBottom="4dp"
+                                    android:paddingTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Hardware"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+
+                            <LinearLayout
+                                android:id="@+id/gifts_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:padding="6dp"
+                                    android:src="@drawable/gift_shops"/>
+                                <TextView
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Gifts"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+
+                            <LinearLayout
+                                android:id="@+id/clothes_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:paddingLeft="6dp"
+                                    android:paddingEnd="6dp"
+                                    android:padding="6dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/clothes_store"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:layout_marginBottom="4dp"
+                                    android:layout_marginTop="4dp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Clothes"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@android:color/white"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:orientation="horizontal"
+                            android:padding="3dp">
+                            <LinearLayout
+                                android:id="@+id/stationery_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:src="@drawable/stationery_store"/>
+                                <TextView
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginBottom="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Stationery"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+                            <LinearLayout
+                                android:id="@+id/pets_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:src="@drawable/pet_shoop"/>
+                                <TextView
+                                    android:paddingBottom="4dp"
+                                    android:paddingTop="4dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Pet"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+
+                            <LinearLayout
+                                android:id="@+id/sports_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:padding="6dp"
+                                    android:src="@drawable/sports_shop"/>
+                                <TextView
+                                    android:paddingTop="4dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily=""
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="Sports"/>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/white"/>
+
+                            <LinearLayout
+                                android:id="@+id/view_all_linear_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5"
+                                    android:paddingLeft="6dp"
+                                    android:paddingEnd="6dp"
+                                    android:padding="6dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/search"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:layout_marginBottom="4dp"
+                                    android:layout_marginTop="4dp"
+                                    android:textColor="@android:color/black"
+                                    android:layout_gravity="center"
+                                    android:text="View Alll"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
